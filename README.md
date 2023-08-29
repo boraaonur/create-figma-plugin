@@ -5,6 +5,9 @@ This repository serves as a simple, no-fuss starter template for Figma plugins. 
 
 ## Features
 - Uses Vite for bundling both the Figma-side script and the UI.
+- TypeScript is set as the default language.
+- Utilizes React for UI development.
+- Pre-configured with Chakra UI as the default UI library.
 - Ready to use right away, no additional configuration required.
 
 ## Usage
