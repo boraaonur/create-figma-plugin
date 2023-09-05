@@ -4,7 +4,7 @@
   "api": "1.0.0",
   "capabilities": [],
   "enableProposedApi": false,
-  "main": "plugin/dist/main.js",
-  "ui": "ui/dist/index.html",
+  "main": "app/dist-plugin/main.js",
+  "ui": "app/dist-ui/index.html",
   "editorType": ["figma"]
 }

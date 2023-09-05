@@ -43,8 +43,7 @@ rl.question("What project name do you want to use? ", (answer) => {
 
   // Installing dependencies
   console.log("Installing dependencies...");
-  runCommand(`cd ${userProjectDir}/plugin && npm install`);
-  runCommand(`cd ${userProjectDir}/ui && npm install`);
+  runCommand(`cd ${userProjectDir}/app && npm install`);
   console.log("Figma plugin project is created.");
   console.log(`cd ${userProjectDir} && npm start`);
 

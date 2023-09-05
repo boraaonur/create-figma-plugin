@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [],
   build: {
     rollupOptions: {
-      input: path.resolve(__dirname, "src/main.ts"),
+      input: path.resolve(__dirname, "src/plugin/main.ts"),
       output: {
-        dir: path.resolve(__dirname, "./dist"),
+        dir: path.resolve(__dirname, "./dist-plugin"),
         entryFileNames: "main.js",
       },
     },
